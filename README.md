@@ -1,6 +1,7 @@
-# KnittingConverter
+# MosaicKnittingConverter
 
-This Project is meant to help people using knitting machines (friends, help! you know better what to write, heh)
+This Project is meant to help people using knitting machines (like PASSAP E6000) that can do mosaic knitting techniques: perform tuck- and/or slip-stitch patterns with two or more colours. It convertes a mosaic pattern (how the right side of your knitting should look like) into the knitting chart equivalent you can then upload to your knitting machine. 
+(friends, help! you know better what to write, heh)
 
 # Functionality
 1st Step: Right now it's meant to be a terminal application. The user will decide if he wants to use as input an image or text file with two (1) or three colors (2), or the colors have to be switched (3). For a text file it's easy to automatically figure out if two or free colors are used, but the images have to be tested properly. The colors are selected by the RGB values, and this might lead so some problems if the colors are very similar. The three color version isn't implemented yet.
